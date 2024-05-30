@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Oxanium:wght@200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Oxanium", sans-serif;
+}
+body{
+    text-align: center;
+    background: linear-gradient(90deg, #6ab7f5, #fff) ;
+}
+main{
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}
+.pokemon_imagem{
+    position: absolute;
+    top: 33%;
+    right: 40%;
+    height: 18%;
+}
+.input_search{
+    position: absolute;
+    top: 65%;
+    right: 30%;
+    outline: none;
+    font-weight: bold;
+    padding: 4%;
+    border-radius: 10px;
+}
+.pokedex{
+    width: 100%;
+    max-width: 425;
+}
+.buttons{
+    position: absolute;
+    top: 75%;
+    left: 33%;
+}
+.btn-prev, .btn-next{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #6f6868;
+    color: white;
+    font-weight: bold;
+    box-shadow: 2px 3px 0 #888, 3px 2px 0 #333;
+    cursor: pointer;
+}
+.btn-prev .btn-next:hover{
+    box-shadow: -6px 6px 0 #222;
+}
